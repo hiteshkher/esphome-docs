@@ -39,6 +39,7 @@ if you're having issues try the 4.7kΩ recommended by the manufacturer) between
     sensor:
       - platform: dht
         pin: D2
+        model: DHT11 # if not get data (unknown) need to add this 
         temperature:
           name: "Living Room Temperature"
         humidity:
